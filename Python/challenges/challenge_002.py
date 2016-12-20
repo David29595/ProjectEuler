@@ -13,7 +13,7 @@ def main():
         temp = current_num # needed as current_num gets updated before next_num
         current_num = next_num
         next_num = temp +  next_num # add previous and current numbers -> Fibonacci
-    return str(ans)
+    return ans
 
 if __name__ == '__main__':
-    print(main())
+    print(str(main()))

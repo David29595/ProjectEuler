@@ -14,7 +14,7 @@ def main(num):
             num = num // n
         else:
             factors.append(n)
-            return str(num), factors
+            return num, factors
 
 
 # smallest prime factor
@@ -28,4 +28,4 @@ def spf(num):
     return num
 
 if __name__ == '__main__':
-    print(main(600851475143))
+    print(str(main(600851475143)))
