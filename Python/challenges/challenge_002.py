@@ -16,4 +16,5 @@ def main():
     return ans
 
 if __name__ == '__main__':
-    print(str(main()))
+    ans = main()
+    print(str(ans))

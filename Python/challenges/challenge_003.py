@@ -28,4 +28,5 @@ def spf(num):
     return num
 
 if __name__ == '__main__':
-    print(str(main(600851475143)))
+    ans = main(600851475143)
+    print(str(ans))
