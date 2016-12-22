@@ -17,6 +17,7 @@ def main():
         i += 1
     return ans
 
+
 def Palindrome(s):
     if s == s[::-1]:
         return True
