@@ -15,7 +15,7 @@ def main():
             j += 1
         j = 100
         i += 1
-    return greatest
+    return ans
 
 def Palindrome(s):
     if s == s[::-1]:
