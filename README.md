@@ -6,4 +6,4 @@ To run the tests, Pytest is required.
 
 This can be installed using `pip install pytest`
 
-and the tests can be run by running `pytest` from the root of the project.
+and the tests can be run by running `pytest` from the `python` or `root` directory of the project.
